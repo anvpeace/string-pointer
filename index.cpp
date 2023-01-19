@@ -8,8 +8,16 @@ int main(){
 
     const char *p = alphabets.c_str();
 
+    int i = p[0];
 
-     cout << p[1] << endl;
+    for (int i; i <= 27; i++){
+        cout << p[i] << endl;
+    }
+
+
+    //  cout << p[1] << endl;
+
+
 
 
 
